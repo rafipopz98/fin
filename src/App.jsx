@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About";
 import LandingPage from "./components/LandingPage";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -10,6 +11,7 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <LandingPage />
+      <About />
     </>
   );
 }

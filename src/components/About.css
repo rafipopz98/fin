@@ -1,0 +1,32 @@
+.about{
+    /* margin-top: 2000px; */
+    margin: auto 4%;
+    background-color: #f7fff0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.headingabt{
+    padding-top:2rem;
+    text-align: center;
+    font-style: Montserrat Bold;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.paraabt span{
+    font-weight: 100;
+    font-size: 1.3em;
+    font-family: RobotoMono Regular;
+}
+.paraabt{
+    text-align: center;
+    padding-top:2rem;
+    width: 900px;
+    font-weight: 100;
+    line-height: 2.9rem;
+    font-size: 1.6rem;
+    font-family: Montserrat SemiBold;
+}

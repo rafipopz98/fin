@@ -21,7 +21,7 @@ function LandingPage() {
         Numbers that guide your financial growth
         </div>
         <div className="btn">
-        <button>calculate</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>calculate</button>
         </div>
       </div>
     </div>
