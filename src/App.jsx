@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 // import CalcPage from './components/CalcPage'
 import ScrollToTop from "./components/SmoothScrollbar";
+import FD from "./components/Pages/FD";
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
       <ScrollToTop />
       <Navbar />
     <Router>
-      <LandingPage />
-      <About />
-      <Section />
+      {/* <LandingPage /> */}
+      {/* <About /> */}
+      {/* <Section /> */}
       {/* <CalcPage /> */}
-      <Footer />
+      {/* <Footer /> */}
+      <FD />
       </Router>
     </>
   );
