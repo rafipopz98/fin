@@ -7,10 +7,11 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #262626;
-    --gray-1: #BCB4B4;
-    --deep-dark: #1E1E1E;
-    --gray-2: #363636;
+    --dark-bg: white;
+    ${'' /* --dark-bg: #C4D7B2; */}
+    --gray-1: #A0C49D;
+    --deep-dark: #E1ECC8;
+    --gray-2: #F7FFE5;
     --white : white;
     --black: black;
   }
@@ -31,7 +32,7 @@ const GlobalStyles = createGlobalStyle`
     object-fit: cover;
   }
   button{
-    outline: none
+    outline: none;
   }
   .container {
     max-width: 1200px;

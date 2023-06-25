@@ -1,0 +1,38 @@
+.navbar{
+
+    margin: auto 4%;
+    /* background-color: #C4D7B2; */
+
+    /* background-color: red; */
+    background-color: var(--deep-dark);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    font-family: Montserrat SemiBold;
+    display: inline-block;
+    transition: 0.3s ease background-color;
+    &:hover {
+        /* background-color: var(--deep-dark); */
+        cursor: pointer;
+      }
+
+}
+.active{
+    color: #220;
+}
+.navsecond{
+    margin-left:-250px;
+    /* background-color: red ; */
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 2.3em;
+    font-family: RobotoMono Regular;
+}
