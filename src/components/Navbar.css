@@ -4,7 +4,8 @@
     /* background-color: #C4D7B2; */
 
     /* background-color: red; */
-    background-color: var(--deep-dark);
+    /* background-color: var(--deep-dark); */
+    background-color: #f7fff0;
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
