@@ -22,6 +22,8 @@
     font-family: RobotoMono Regular;
 }
 .paraabt{
+    position: relative;
+    z-index: 2;
     text-align: center;
     padding-top:2rem;
     width: 900px;
@@ -29,4 +31,11 @@
     line-height: 2.9rem;
     font-size: 1.6rem;
     font-family: Montserrat SemiBold;
+}
+.curvy{
+    /* margin: auto 4%; */
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
+    top: -250px;
 }

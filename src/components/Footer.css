@@ -1,0 +1,21 @@
+.footer{
+    margin-top: -80px;
+    background-color: #A0C49D;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    text-align: center;
+    font-family: "Montserrat Bold";
+    font-size: 2rem;
+    /* margin-top: 1.5rem; */
+    text-transform: uppercase;
+  }
+  .social{
+    text-align: center;
+    font-family: "Montserrat Bold";
+    font-size: 1.5rem;
+
+  }
