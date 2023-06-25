@@ -4,6 +4,7 @@ import { MdSearch } from "react-icons/md";
 // import SectionTitle from "../components/SectionTitle";
 import ProjectsInfo from "../assets/data/Calculators";
 import ProjectItem from "../components/Item";
+// import Navbar from "./Navbar";
 
 const ProjectStyle = styled.div`
  margin: auto 4%;
@@ -80,7 +81,7 @@ export default function Projects() {
 
   return (
     <>
-   
+   {/* <Navbar /> */}
       <ProjectStyle>
         <div className="container">
          

@@ -1,18 +1,21 @@
 // import React from 'react'
-import './Footer.css'
+import "./Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
-    <div className="copyright">
-        <h2>copyright 2023</h2>
+      <div className="copyright">
+        © 2023 - Muhammad Rafi | Designed By{" "}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/rafipopz98"
+        >
+          muhammadRafi
+        </a>
+      </div>
     </div>
-    <div className="social">
-        instagram
-        snapchat
-    </div>
-     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

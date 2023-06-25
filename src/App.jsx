@@ -8,18 +8,20 @@ import LandingPage from "./components/LandingPage";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 // import CalcPage from './components/CalcPage'
-// import ScrollToTop from "./components/SmoothScrollbar";
+import ScrollToTop from "./components/SmoothScrollbar";
 
 function App() {
   return (
     <>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Navbar />
+    <Router>
       <LandingPage />
       <About />
       <Section />
       {/* <CalcPage /> */}
       <Footer />
+      </Router>
     </>
   );
 }

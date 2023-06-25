@@ -10,6 +10,7 @@
     /* padding-bottom: 200px; */
 }
 .lpfirst{
+    z-index: 200;
     background-color: #F7FFE5;
     /* color: pink; */
     width: 50%;
@@ -19,23 +20,41 @@
     float: left; 
 }
 .circle{
+    z-index: 1;
     position: absolute;
-    top: 25%;
+    top: 8%;
     left: 18%;
     background-color: #E1ECC8;
     height: 250px;
     width: 250px;
     border-radius: 58% 42% 55% 45% / 43% 57% 43% 57%;
 }
-.smallcir{
+.smallcir1,.smallcir2,.smallcir3,.smallcir4{
+    z-index: 500;
     position: absolute;
-    top: 22%;
-    left: 12%;
-    background-color: #E1ECC8;
+    top: 17%;
+    left: 22%;
+    background-color: red;
     height: 35px;
     width: 35px;
     border-radius: 64% 36% 46% 54% / 58% 63% 37% 42% ;
 }
+.smallcir2{
+    background-color: red;
+    top: 19%;
+    left: 22%;
+}
+.smallcir3{
+    background-color: black;
+    top: 17%;
+    left: 27%;
+}
+.smallcir4{
+    background-color: purple;
+    top: 20%;
+    left: 27%;
+}
+
 .lpsecond{
         background-color: #E1ECC8;
         width: 50%;
