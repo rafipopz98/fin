@@ -1,5 +1,7 @@
 // import React from 'react'
+// import About from "./About";
 import "./LandingPage.css";
+// import Section from "./Section";
 function LandingPage() {
   return (
     <div className="LandingPage">
@@ -31,6 +33,8 @@ function LandingPage() {
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>calculate</button>
         </div>
       </div>
+      {/* <About /> 
+       <Section/> */}
     </div>
   );
 }
