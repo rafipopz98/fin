@@ -6,16 +6,12 @@ import {
   Route,
 } from "react-router-dom";
 import About from "./components/About";
-import Footer from "./components/Footer";
-// import Item from "./components/Item";
 import LandingPage from "./components/LandingPage";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
-import CalcPage from "./components/CalcPage";
 import ScrollToTop from "./components/SmoothScrollbar";
-// import FD from "./components/Pages/LoanCalculator";
-import LoanCalculator from "./components/Pages/LoanCalculator";
+import Home from "./components/mainpgs/Home";
+import CalcPage from "./components/CalcPage";
 
 function App() {
   return (
@@ -23,29 +19,23 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Router>
-        {/* <Routes> */}
-
-
-        {/* <Route path="/" element={<LandingPage />}>
-          <Route path="about" element={<About />} />
-          <Route path="mostused" element={<Section />} />
-
-          {/* <Route path="calculators" element={<CalcPage />} /> */}
-
-        {/* </Route> */} *
-
-
+        <Routes>
+          <Route path="/" element={<Home />}>
+            <Route path="about" element={<About />} />
+            <Route path="mostused" element={<Section />} />
+            <Route path="calculators" element={<CalcPage />} />
+          </Route>
 
           {/* <Route path="*" element={<NoPage />} /> */}
 
-<LandingPage />
+          {/* <LandingPage /> */}
 
-          <About />
-          <Section />
+          {/* <About /> */}
+          {/* <Section /> */}
           {/* <CalcPage /> */}
           {/* <LoanCalculator /> */}
-        {/* </Routes> */}
-        <Footer/>
+        </Routes>
+        {/* <Footer/> */}
       </Router>
     </>
   );

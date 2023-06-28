@@ -116,7 +116,7 @@ export default function Section() {
         </div>
       </div>
       <h2>
-      <NavLink to="/CalcPage">
+      <NavLink to="/calculators">
       see all
       </NavLink>
         
