@@ -1,6 +1,9 @@
 // import React from 'react'
 // import About from "./About";
+import About from "./About";
+import Footer from "./Footer";
 import "./LandingPage.css";
+import Section from "./Section";
 // import Section from "./Section";
 function LandingPage() {
   return (
@@ -33,6 +36,9 @@ function LandingPage() {
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>calculate</button>
         </div>
       </div>
+      <About />
+            <Section />
+            <Footer />
       {/* <About /> 
        <Section/> */}
     </div>

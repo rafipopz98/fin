@@ -9,16 +9,15 @@ function Navbar() {
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
-          <li>{/* <NavLink to="/calculators">Calculators</NavLink> */}</li>
-          <li>Most used</li>
+          <li>
+          <NavLink to="/calculators">Calculators</NavLink>
+          </li>
+          <li>
+          <NavLink to="/mostused">Most used</NavLink>
+          </li>
 
           <li>
-            {/* <NavLink
-            to="/about"           
-            exact   
-          > */}
-            About
-            {/* </NavLink> */}
+          <NavLink to="/about">About</NavLink>
           </li>
         </ul>
       </div>
