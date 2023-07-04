@@ -112,7 +112,7 @@ export default function Section() {
                     title={project.name}
                     img={project.img}
                     desc={project.desc}
-                      Link={project.Link}
+                    link={project.link}
                   />
                  
                 </SwiperSlide>

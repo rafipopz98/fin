@@ -2,6 +2,7 @@
 // import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectImg from '../assets/resources/money.svg';
+import { Link } from 'react-router-dom';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -40,11 +41,11 @@ export default function Item({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  Link,
+  link='links',
 }) {
   return ( 
     <ProjectItemStyles>
-    <a href={Link}>
+    <Link to={link}>
       <div to="/projects" className="projectItem__img">
         <img src={img} alt="project img" />
       </div>
@@ -54,7 +55,7 @@ export default function Item({
         </div>
         <p className="projectItem__desc">{desc}</p>
       </div>
-      </a>
+      </Link>
     </ProjectItemStyles>
   );
 }

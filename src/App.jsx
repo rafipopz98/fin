@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/mostused" element={<Section />} />
           <Route exact path="/calculators" element={<CalcPage />} />
-          <Route exact path="/fd" element={<Fd />} />
+          <Route  path="/fd" element={<Fd />} />
           <Route exact path="/savings" element={<SavingsCalculator />} />
         </Routes>
         <Footer />
