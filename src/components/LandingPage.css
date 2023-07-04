@@ -10,6 +10,7 @@
     /* padding-bottom: 200px; */
 }
 .lpfirst{
+
     z-index: 200;
     background-color: #F7FFE5;
     /* color: pink; */
@@ -69,11 +70,12 @@
 }
 .imgs {
     position: absolute;
-    z-index: 100;
+    /* z-index: 100; */
     top: 350px;
     left: 300px;
     width: 130px;
 }
+
 .quote{
     width: 200px;
     font-weight: 200;
@@ -96,3 +98,16 @@ span{
 html{
     scroll-behavior: smooth;
 }
+.lpfirst{
+    --s: 200px; /* control the size */
+    --c2:  #E1ECC8;
+    --c3: #F7FFE5;
+    --c1: #A0C49D;
+    
+    background:
+      repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 180deg) 
+       calc(.5*var(--s)) calc(.5*var(--s)*0.577),
+      repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 180deg);
+    background-size: var(--s) calc(var(--s)*0.577);
+  }
+  

@@ -9,7 +9,7 @@ import ProjectItem from "../components/Item";
 const ProjectStyle = styled.div`
  margin: auto 4%;
 background-color:#f7fff0;
-  padding: 10rem 0;
+  padding: 4rem 10rem  10rem 0;
   .projects__allItems {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -83,7 +83,7 @@ export default function Projects() {
     <>
    {/* <Navbar /> */}
       <ProjectStyle>
-        <div className="container">
+        <div id="about" className="container">
          
           <div className="headingcalcpage">
           <h2>CALCULATORS</h2>
@@ -105,7 +105,7 @@ export default function Projects() {
           
          
 
-          <div className="projects__allItems">
+          <div id="mostused" className="projects__allItems">
            
               { projectsData.map((item) => (
                 <ProjectItem

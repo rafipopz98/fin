@@ -11,17 +11,18 @@ function LandingPage() {
     <div className="LandingPage">
       <div className="lpfirst">
         <div className="imgs">
-          <img
-            src="https://png.pngtree.com/png-clipart/20200527/ourmid/pngtree-office-supplies-cartoon-stationery-green-calculator-png-image_2209437.jpg"
+          {/* <img
+            src="https://e7.pngegg.com/pngimages/818/507/png-clipart-graphics-calculator-drawing-calculator-electronics-photography.png"
             alt=""
-          />
+          /> */}
+          
         </div>
-        <div className="smallcir1"></div>
+        {/* <div className="smallcir1"></div>
         <div className="smallcir2"></div>
         <div className="smallcir3"></div>
-        <div className="smallcir4"></div>
+        <div className="smallcir4"></div> */}
 
-        <div className="circle"></div>
+        {/* <div className="circle"></div> */}
       </div>
       <div className="lpsecond">
         <div className="quote">
@@ -33,13 +34,13 @@ function LandingPage() {
         <div className="btn">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           
-          <a href="#mostused">
+          <NavLink to="/calculators">
 
           <button   className="bttns">
             
             calculate
           </button>
-          </a>
+          </NavLink>
          
         </div>
       </div>
