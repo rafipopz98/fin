@@ -107,14 +107,14 @@ export default function Section() {
               if (index >= 5) return;
               return (
                 <SwiperSlide key={project.id}>
-                <a href="#mostused">
+               
                   <Item
                     title={project.name}
                     img={project.img}
                     desc={project.desc}
                       Link={project.Link}
                   />
-                  </a>
+                 
                 </SwiperSlide>
                 
               );
