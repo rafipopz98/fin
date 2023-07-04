@@ -33,12 +33,12 @@ function LandingPage() {
         Numbers that guide your financial growth
         </div>
         <div className="btn">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>calculate</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button className="bttns">calculate</button>
         </div>
       </div>
-      <About />
-            <Section />
-            <Footer />
+      {/* <About /> */}
+            {/* <Section /> */}
+            {/* <Footer /> */}
       {/* <About /> 
        <Section/> */}
     </div>

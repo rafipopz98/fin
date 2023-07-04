@@ -13,7 +13,7 @@ import ScrollToTop from "./components/SmoothScrollbar";
 import Home from "./components/mainpgs/Home";
 import CalcPage from "./components/CalcPage";
 import Footer from "./components/Footer";
-import LoanCalculator from "./components/Pages/LoanCalculator";
+
 
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
       </Router> */}
       <ScrollToTop />
       <Router>
-      <Navbar/>
+      {/* <Navbar/> */}
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/about" element={<About/>}/>

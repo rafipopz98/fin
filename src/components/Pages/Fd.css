@@ -36,7 +36,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 22%, rgba(26,207,183,1) 8
   }
   label {
     /* margin-right: 2rem; */
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   input{
     width: 50%;
@@ -52,7 +52,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 22%, rgba(26,207,183,1) 8
   }
   .form-group label{
     /* background-color: red; */
-    padding:20px;
+    padding:18px;
   }
   .ans{
     /* background-color: red; */
@@ -77,6 +77,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 22%, rgba(26,207,183,1) 8
   }
   
   table, th, td {
+    font-size: 1.2rem;
     border: 1px solid;
     padding: 0.9rem;
   }
