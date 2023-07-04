@@ -6,6 +6,7 @@ import Item from "./Item";
 import "swiper/swiper-bundle.min.css";
 import Projects from "../assets/data/Calculators";
 // import Fade from 'react-reveal'
+import ScrollToTop from './ScrollToTop'
 import {NavLink} from 'react-router-dom'
 
 // install Swiper modules
@@ -76,7 +77,9 @@ background-color:#f7fff0;
 
 export default function Section() {
   return (
+    
     <ProjectSectionStyle>
+    <ScrollToTop />
       <div id="mostused" className="container">
         <h2>MOST USED ONES</h2>
 
@@ -104,12 +107,16 @@ export default function Section() {
               if (index >= 5) return;
               return (
                 <SwiperSlide key={project.id}>
+                <a href="#mostused">
                   <Item
                     title={project.name}
                     img={project.img}
                     desc={project.desc}
+                      Link={project.Link}
                   />
+                  </a>
                 </SwiperSlide>
+                
               );
             })}
           </Swiper>

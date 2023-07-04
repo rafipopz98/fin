@@ -1,10 +1,11 @@
 const Calculators = [
     {
       id: 1,
-      name: 'Loan Calculator',
+      name: 'FD Calculator',
       desc:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, velit explicabo ipsum optio quidem recusandae tempore sequi autem debitis corporis possimus enim nesciunt!',
       img: 'https://i.pinimg.com/736x/7e/05/e0/7e05e0d3c0e3151a9f8d25a6e5fac44a.jpg',
+      Link:'/fd'
     },
     {
       id: 2,
@@ -12,6 +13,7 @@ const Calculators = [
       desc:
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, velit explicabo ipsum optio quidem recusandae tempore sequi autem debitis corporis possimus enim nesciunt!',
       img: 'https://pbs.twimg.com/media/EYDlBD8XkAAqPSn.jpg',
+      Link:'/savings'
     },
     {
       id: 3,

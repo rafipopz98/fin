@@ -9,6 +9,7 @@ import Home from "./components/mainpgs/Home";
 import CalcPage from "./components/CalcPage";
 import Footer from "./components/Footer";
 import Fd from "./components/Pages/Fd";
+import SavingsCalculator from "./components/Pages/SavingsCalculator";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/mostused" element={<Section />} />
           <Route exact path="/calculators" element={<CalcPage />} />
           <Route exact path="/fd" element={<Fd />} />
+          <Route exact path="/savings" element={<SavingsCalculator />} />
         </Routes>
         <Footer />
       </Router>

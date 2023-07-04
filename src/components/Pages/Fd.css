@@ -19,7 +19,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 22%, rgba(26,207,183,1) 8
 }
 .fdsecond{
   padding: 5rem;
-  padding-bottom:23rem;
+  /* padding-bottom:23rem; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

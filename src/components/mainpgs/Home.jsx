@@ -3,6 +3,7 @@ import Footer from "../Footer"
 import LandingPage from "../LandingPage"
 import Section from "../Section"
 import Fd from "../Pages/Fd"
+import SavingsCalculator from "../Pages/SavingsCalculator"
 
 export default function Home(){
     return(
@@ -12,6 +13,7 @@ export default function Home(){
             <Section />
             {/* <LoanCalculator /> */}
             {/* <Fd /> */}
+            {/* <SavingsCalculator /> */}
             {/* <Footer /> */}
         </div>
     )

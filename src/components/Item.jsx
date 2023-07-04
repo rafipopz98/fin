@@ -40,9 +40,11 @@ export default function Item({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  Link,
 }) {
   return ( 
     <ProjectItemStyles>
+    <a href={Link}>
       <div to="/projects" className="projectItem__img">
         <img src={img} alt="project img" />
       </div>
@@ -52,6 +54,7 @@ export default function Item({
         </div>
         <p className="projectItem__desc">{desc}</p>
       </div>
+      </a>
     </ProjectItemStyles>
   );
 }
