@@ -13,6 +13,7 @@ import ScrollToTop from "./components/SmoothScrollbar";
 import Home from "./components/mainpgs/Home";
 import CalcPage from "./components/CalcPage";
 import Footer from "./components/Footer";
+import Fd from "./components/Pages/Fd";
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="/mostused" element={<Section/>}/>
           <Route exact path="/calculators" element={<CalcPage/>}/>
+          <Route exact path="/fd" element={<Fd/>}/>
         </Routes>
       </Router>
 
