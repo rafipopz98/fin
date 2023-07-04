@@ -52,7 +52,7 @@ function App() {
       </Router> */}
       <ScrollToTop />
       <Router>
-      {/* <Navbar/> */}
+      <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/about" element={<About/>}/>
@@ -60,6 +60,7 @@ function App() {
           <Route exact path="/calculators" element={<CalcPage/>}/>
           <Route exact path="/fd" element={<Fd/>}/>
         </Routes>
+        <Footer />
       </Router>
 
       

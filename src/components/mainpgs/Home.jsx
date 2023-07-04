@@ -7,11 +7,11 @@ import Fd from "../Pages/Fd"
 export default function Home(){
     return(
         <div>
-           {/* <LandingPage/> */}
-            {/* <About /> */}
-            {/* <Section /> */}
+           <LandingPage/>
+            <About />
+            <Section />
             {/* <LoanCalculator /> */}
-            <Fd />
+            {/* <Fd /> */}
             {/* <Footer /> */}
         </div>
     )

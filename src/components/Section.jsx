@@ -77,7 +77,7 @@ background-color:#f7fff0;
 export default function Section() {
   return (
     <ProjectSectionStyle>
-      <div className="container">
+      <div id="mostused" className="container">
         <h2>MOST USED ONES</h2>
 
         <div className="projects__allItems">

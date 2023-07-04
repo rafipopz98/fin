@@ -13,11 +13,11 @@ function Navbar() {
           <NavLink to="/calculators">Calculators</NavLink>
           </li>
           <li>
-          <NavLink to="/mostused">Most used</NavLink>
+          <a href="#mostused">most used</a>
           </li>
 
           <li>
-          <NavLink to="/about">About</NavLink>
+          <a href="#about">About</a>
           </li>
         </ul>
       </div>

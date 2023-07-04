@@ -3,7 +3,7 @@ import "./About.css";
 function About() {
   return (
     <>
-    <div className="about">
+    <div id="about" className="about">
       <div className="headingabt">
         Unleash Financial Clarity
       </div>
